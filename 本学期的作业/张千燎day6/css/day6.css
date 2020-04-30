@@ -1,0 +1,60 @@
+body{
+	margin:0px;}
+
+.maxBox{
+	width:80%;
+	height:300px;
+	margin:auto;}
+	
+.leftBox{
+	width:15%;
+	height:300px;
+	float:left;
+	background-color:#F0F0F0;}
+	
+.maxBox .leftBox ul li .hideBox{
+	position:absolute;
+	background-color:#3FF;
+	width:200px;
+	height:300px;
+	margin-top:-45px;
+	margin-left:10%;
+	display:none;
+	}
+.maxBox .leftBox ul li:hover .hideBox{
+	display:block;}
+	
+.maxBox .leftBox ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	margin-top:15px;
+}
+	
+.maxBox .leftBox ul li{
+	line-height:30px;
+	padding-left:20px;}
+
+.maxBox .leftBox ul span{
+	float:right;
+	margin-right:20px;}
+	
+.maxBox .leftBox ul li a{
+	color: #666;
+	text-decoration:none;}
+	
+.maxBox .leftBox ul li a:hover{
+	color: #CCC;
+	}
+.maxBox .leftBox ul li:hover{
+	font-weight:bold;
+	background-color: #CCC;}
+.maxBox .leftBox ul li:hover span{
+	color:#666;}
+	
+.rightBox{
+	width:100%;
+	height:300px;}
+	
+.endBox{
+	text-align:center;}

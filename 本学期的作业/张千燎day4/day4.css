@@ -1,0 +1,36 @@
+body{
+	margin:0px;
+	text-align:center;}
+	
+.bigBox{
+	margin:auto;
+	width:70%;
+	background-color:#F5F5F5;
+	}
+	
+.bigBox .leftBox{
+	width:21.5%;
+	float:left;
+	}
+.aRow{
+	height:300px;}
+	
+.childImg{
+	float:left;
+	margin-left:5px;
+	width:200px;
+	height:300px;
+	}
+.bRow{
+	height:300px;}
+	
+.TwochildImg{
+	float:left;
+	margin-left:5px;
+	margin-top:3px;
+	width:200px;
+	height:300px;
+	}
+img:hover{
+	border: #FFF solid 2px;}
+	
